@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+</head>
+<body style="background-color:whitesmoke;">
+    <h1 align="center">TGSRTC Application Form</h1>
+    <form autocomplete="on" action="../relative_path_form.html">
+    <fieldset style="background-color: cornsilk;">
+    <legend align="center"><h2>Student Details</h2></legend>
+    <center>
+        <label for="name">Name:</label>
+        <input type="text" id='name' placeholder="abcde" required>
+        <label for="uname">Email:</label>
+        <input type="email" id="uname" placeholder="example@gmail.com" required><br>
+        <h1> </h1>
+        <label for="iname"> contact:</label>
+        <input type="tel" id="iname" placeholder="+91 0000000000" required>
+        <label for="jname">date of birth:</label>
+        <input type="date" id="jname"><br>
+        <h1> </h1>
+        <label for="Aname">Aadhar Number</label>
+        <input id="Aname" type="tel" required>
+        <label for="Rname">Rice Card Number</label>
+        <input id="Rname" type="tel" required>
+        <h1> </h1>
+        <label for="Cname">Course:</label>
+        <input type="text" id="Cname">
+        <label for="kname">Branch:</label>
+        <input type="text" id="kname"><br>
+        <h1> </h1>
+        <label for="lname">Mother Mobile Number</label>
+        <input type="tel" id="lname" required>
+        <label for="mname">College ID No: </label>
+        <input type="" id="mname" required placeholder="21551A05I1"><br>
+        <h1> </h1>
+        <label for="gname">College Name</label>
+        <input id="gname" type="text">
+        <label for="Pname">College Number</label>
+        <input id="Pname" type="tel" placeholder="8909 7878 7677"><br>
+        <h1> </h1>
+        <label >Gender</label>
+        <input type="radio" name="uname">Male
+        <input type="radio" name="uname">Female<br>
+        <h1> </h1>
+        <label for="pname">Passport Size Photo:</label>
+        <input type="file" id="pname"><br>
+        <label></label>
+    </center>
+    </fieldset>
+
+
+    <fieldset style="background-color: cornsilk;">
+        <legend align="center"><h2>College Address</h2></legend>
+        <center>
+                <label for="sname">State:</label>
+                <input type="text" id="sname" required placeholder="Telangana">
+                <label for="dname">Distict:</label>
+                <input type="text" id="dname" required><br>
+                <h1> </h1>
+                <label for="cname">City:</label>
+                <input type="text" id="cname" required>&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="pname">pin code:</label>
+                <input type="tel" id="pname"><br>
+                <h1> </h1>
+                <label for="aname">Address:</label>
+                <textarea name="Address" id="aname"></textarea>
+        </center>
+    </fieldset>
+
+
+    <fieldset style="background-color: cornsilk;">
+        <legend align="center"><h2>Student Residential Address</h2></legend>
+        <center>
+            <label for="sname">State:</label>
+                <input type="text" id="sname" required placeholder="Telangana">
+                <label for="dname">Distict:</label>
+                <input type="text" id="dname" required><br>
+                <h1> </h1>
+                <label for="cname">city</label>
+                <input type="text" id="cname" required>
+                <label for="pname">pin code:</label>
+                <input type="tel" id="pname"><br>
+                <h1> </h1>
+                <label for="aname">Address:</label>
+                <textarea name="Address" id="aname"></textarea>
+        </center>
+    </fieldset>
+    <h1> </h1>
+
+
+    <fieldset style="background-color: cornsilk;">
+        <legend align="center"><h2>Pass Type Details</h2></legend>
+        <center>
+        <label for="city">City</label>
+            <select name="city" id="city">
+                <option value="---select---">---select---</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Karimnagar">Karimnagar</option>
+            </select><br>
+        <h1> </h1>
+        <label for="Pass_">Pass Type:</label>
+        <select name="Pass_" id="Pass_">
+            <option value="---select---">---select---</option>
+            <option value="General">General</option>
+            <option value="1 Month">1 Month</option>
+            <option value="3 Months">3 Months</option>
+            <option value="6 Months">6 Months</option>
+            <option value="yearly">yearly</option>
+        </select>
+        </center>
+    </fieldset>
+
+
+
+    <fieldset style="background-color: cornsilk;">
+        <legend align="center"><h2>Payment Mode Details</h2></legend>
+        <center>
+            <label for="_pass">Payment Mode: </label>
+            <select name="_pass" id="_pass">
+                <option value="---select---">---select---</option>
+                <option value="offline Mode">offline Mode</option>
+                <option value="Online Mode">Online Mode</option>
+            </select>
+            <br>
+            <h1> </h1>
+            <label for="collect">Center at which you want to collect pass:</label>
+            <select name="collect" id="collect">
+                <option value="---select---">---select---</option>
+                <option value="Karimnagar">Karimnagar</option>
+                <option value="Hyderabad">Hyderabad</option>
+            
+            </select>
+        </center>
+    </fieldset>
+
+
+        <center>
+            <h1> </h1>
+            <input type="reset" width="100">&nbsp;&nbsp;
+            <input type="submit" width="100">
+        </center>
+    </form>
+
+    
+</body>
+</html>
